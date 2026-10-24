@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "site": "Elena's Tech & Lifestyle Stack",
+    "updated": "2026-10-24",
+    "note": "Replace all PLACEHOLDER_URL values with your real affiliate links before going live."
+  },
+  "workspace_ai": [
+    {
+      "id": "make",
+      "name": "Make.com",
+      "tagline": "Visual automation for everything — no code needed.",
+      "cloaked_url": "/go/make",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Free plan available",
+      "commission": "Recurring"
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "tagline": "The all-in-one workspace, now with built-in AI.",
+      "cloaked_url": "/go/notion",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Team favourite",
+      "commission": "Recurring"
+    },
+    {
+      "id": "convertkit",
+      "name": "Kit (ConvertKit)",
+      "tagline": "Email marketing built for creators.",
+      "cloaked_url": "/go/kit",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Free up to 10k subscribers",
+      "commission": "Recurring"
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper AI",
+      "tagline": "AI writing that actually sounds like you.",
+      "cloaked_url": "/go/jasper",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "High-converting",
+      "commission": "Recurring"
+    },
+    {
+      "id": "surfer",
+      "name": "Surfer SEO",
+      "tagline": "Data-driven content that ranks.",
+      "cloaked_url": "/go/surfer",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "SEO essential",
+      "commission": "Recurring"
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "tagline": "Record and share async video — faster than email.",
+      "cloaked_url": "/go/loom",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Free to start",
+      "commission": "Recurring"
+    }
+  ],
+  "lifestyle_wellness": [
+    {
+      "id": "oura",
+      "name": "Oura Ring",
+      "tagline": "The most accurate sleep & readiness tracker.",
+      "cloaked_url": "/go/oura",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Elena's top pick",
+      "commission": "One-time"
+    },
+    {
+      "id": "hatch",
+      "name": "Hatch Restore",
+      "tagline": "Smart sunrise alarm — wake up without dread.",
+      "cloaked_url": "/go/hatch",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Sleep game-changer",
+      "commission": "One-time"
+    },
+    {
+      "id": "theragun",
+      "name": "Theragun",
+      "tagline": "Professional-grade muscle recovery at home.",
+      "cloaked_url": "/go/theragun",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Best-seller",
+      "commission": "One-time"
+    },
+    {
+      "id": "eight-sleep",
+      "name": "Eight Sleep Pod",
+      "tagline": "The smart mattress that regulates your temperature.",
+      "cloaked_url": "/go/eightsleep",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "High-ticket",
+      "commission": "One-time"
+    },
+    {
+      "id": "whoop",
+      "name": "WHOOP",
+      "tagline": "24/7 fitness & recovery coaching on your wrist.",
+      "cloaked_url": "/go/whoop",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "No screen, pure data",
+      "commission": "Recurring"
+    },
+    {
+      "id": "ember",
+      "name": "Ember Mug²",
+      "tagline": "Your coffee stays hot. All day. App-controlled.",
+      "cloaked_url": "/go/ember",
+      "affiliate_url": "PLACEHOLDER_URL",
+      "badge": "Perfect gift",
+      "commission": "One-time"
+    }
+  ]
+}

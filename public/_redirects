@@ -1,0 +1,22 @@
+# Cloudflare Pages _redirects
+# Link cloaking — raw affiliate URLs are never exposed on the site.
+# Format: /go/SLUG  REAL_AFFILIATE_URL  302
+
+# ── Workspace & AI Automation ──────────────────────────────────────────────
+/go/make          PLACEHOLDER_URL   302
+/go/notion        PLACEHOLDER_URL   302
+/go/kit           PLACEHOLDER_URL   302
+/go/jasper        PLACEHOLDER_URL   302
+/go/surfer        PLACEHOLDER_URL   302
+/go/loom          PLACEHOLDER_URL   302
+
+# ── Lifestyle & Wellness Tech ──────────────────────────────────────────────
+/go/oura          PLACEHOLDER_URL   302
+/go/hatch         PLACEHOLDER_URL   302
+/go/theragun      PLACEHOLDER_URL   302
+/go/eightsleep    PLACEHOLDER_URL   302
+/go/whoop         PLACEHOLDER_URL   302
+/go/ember         PLACEHOLDER_URL   302
+
+# ── Catch-all: send unknown /go/* to homepage ──────────────────────────────
+/go/*             /                 302
