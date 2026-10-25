@@ -1,8 +1,8 @@
 {
   "meta": {
-    "site": "Elena's Tech & Lifestyle Stack",
+    "site": "Vespera Aura — Tech & Lifestyle Stack",
     "updated": "2026-10-24",
-    "note": "Production affiliate routing links. Update URLs here and in _redirects when inserting your custom network affiliate IDs."
+    "note": "Production affiliate routing links. Vespera Aura Dual-Engine: Somatics & Intimacy Tech + AI Creator Tools."
   },
   "lifestyle_wellness": [
     {
@@ -91,7 +91,7 @@
       "tagline": "Studio-grade digital avatars and lip-sync video generation to scale short-form video production without a physical camera.",
       "cloaked_url": "/go/heygen",
       "affiliate_url": "https://www.heygen.com/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Elena's Engine",
+      "badge": "Vespera's Engine",
       "highlight": "35% Recurring Revenue",
       "commission": "Recurring SaaS"
     },
