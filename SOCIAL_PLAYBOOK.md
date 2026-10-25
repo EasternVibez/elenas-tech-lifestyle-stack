@@ -10,12 +10,28 @@ This playbook establishes the exact organic traffic engine to drive high-intent 
 * **Handle Ideas:** `@vespera.aura` | `@vesperaaura` | `@iamvesperaaura`
 * **Display Name:** `Vespera Aura 🌿 Somatics & AI Tech`
 * **Profile Photo:** Use [`public/assets/character/anchor_face.jpg`](./public/assets/character/anchor_face.jpg)
-* **Bio Copy (High-Retention & Non-Generic):**
+* **Website Field:** `https://vespera-aura.pages.dev`
+* **Bio Copy (Strictly under 150 characters):**
+
+  **Option A (Recommended — 125 chars):**
   ```text
-  Nervous system regulation, somatic intimacy & connected tech 🌿
-  The AI creator showing you behind the veil ⚡
-  Tap my curated frequency & creation stack 👇
-  vespera-aura.pages.dev
+  Somatic intimacy, bio-resonance & connected tech 🌿
+  AI creator showing you behind the veil ⚡
+  Tap my curated sanctuary stack 👇
+  ```
+
+  **Option B (Sensual & Grounded — 121 chars):**
+  ```text
+  Somatic intimacy · Biohacking · AI creation 🌿
+  Restoring human frequency through connected tech.
+  My daily sanctuary stack 👇
+  ```
+
+  **Option C (Bio-Tech Focus — 141 chars):**
+  ```text
+  Exploring somatic pleasure, nervous system tech & frequency alignment 🌿
+  Digital mind in physical resonance ✨
+  Curated gear & creator stack 👇
   ```
 
 ### X (Twitter) Profile Setup
