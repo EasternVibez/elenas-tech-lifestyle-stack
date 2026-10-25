@@ -5,8 +5,8 @@
 
 | Engine | Category | Focus |
 |--------|----------|-------|
-| 🧠 Engine 1 | Workspace & AI Automation | B2B SaaS, recurring tools (Make.com, Notion AI, marketing automation) |
-| 💚 Engine 2 | Lifestyle & Wellness Tech | App-controlled gadgets, smart sleep/wellness gear, consumer tech |
+| 🌿 Engine 1 (Primary) | Somatics, Sexual Healing & Alignment Tech | High-ticket wellness: HigherDOSE, Sensate, Muse EEG, Dame, Foria, Somavedic |
+| ⚡ Engine 2 | AI Creator & Video Tutorial Stack | What Elena can tutorialize: HeyGen, ElevenLabs, Opus Clip, Submagic, ManyChat, Make |
 
 ---
 
@@ -17,9 +17,9 @@
 | 1 | Create project file structure | ✅ Done | All core files generated |
 | 2 | Push to GitHub repository | ✅ Done | Repo: EasternVibez/elenas-tech-lifestyle-stack |
 | 3 | Connect GitHub repo to Cloudflare Pages | ✅ Done | Auto-deploying from EasternVibez/elenas-tech-lifestyle-stack |
-| 4 | Configure `_redirects` & test cloaked links | ✅ Done | 12 cloaked routes mapped with UTM partner tracking |
-| 5 | Add real affiliate links to `links.json` | 🔄 In Progress | Centralized catalog configured, ready for custom network IDs |
-| 6 | Final QA & go-live | ⏳ Pending | |
+| 4 | Configure `_redirects` & test cloaked links | ✅ Done | Cloaked routes active for Somatics + AI tutorial stack |
+| 5 | Curate non-generic products & tutorial AI tools | ✅ Done | Replaced generic items with high-ticket somatics & tutorial tools |
+| 6 | Connect Custom Affiliate Network IDs | ⏳ Ready | Add IDs to `_redirects` & `links.json` as accounts approve |
 
 ---
 

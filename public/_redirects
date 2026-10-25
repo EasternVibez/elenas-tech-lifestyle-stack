@@ -2,21 +2,21 @@
 # Link cloaking — clean /go/ paths redirect to verified partner destinations.
 # Format: /go/SLUG  DESTINATION_URL  302
 
-# ── Workspace & AI Automation ──────────────────────────────────────────────
+# ── Engine 1: AI Creator & Tutorial Stack ──────────────────────────────────
+/go/heygen        https://www.heygen.com/?utm_source=elenas-stack&utm_medium=affiliate          302
+/go/elevenlabs    https://elevenlabs.io/?utm_source=elenas-stack&utm_medium=affiliate           302
+/go/opus          https://www.opus.pro/?utm_source=elenas-stack&utm_medium=affiliate            302
+/go/submagic      https://www.submagic.co/?utm_source=elenas-stack&utm_medium=affiliate        302
+/go/manychat      https://manychat.com/?utm_source=elenas-stack&utm_medium=affiliate           302
 /go/make          https://www.make.com/en?utm_source=elenas-stack&utm_medium=affiliate          302
-/go/notion        https://www.notion.so/product/ai?utm_source=elenas-stack&utm_medium=affiliate 302
-/go/kit           https://kit.com/?utm_source=elenas-stack&utm_medium=affiliate                 302
-/go/jasper        https://www.jasper.ai/?utm_source=elenas-stack&utm_medium=affiliate           302
-/go/surfer        https://surferseo.com/?utm_source=elenas-stack&utm_medium=affiliate          302
-/go/loom          https://www.loom.com/?utm_source=elenas-stack&utm_medium=affiliate           302
 
-# ── Lifestyle & Wellness Tech ──────────────────────────────────────────────
-/go/oura          https://ouraring.com/?utm_source=elenas-stack&utm_medium=affiliate            302
-/go/hatch         https://www.hatch.co/restore-2?utm_source=elenas-stack&utm_medium=affiliate   302
-/go/theragun      https://www.therabody.com/?utm_source=elenas-stack&utm_medium=affiliate      302
-/go/eightsleep    https://www.eightsleep.com/pod-cover/?utm_source=elenas-stack&utm_medium=affiliate 302
-/go/whoop         https://www.whoop.com/?utm_source=elenas-stack&utm_medium=affiliate          302
-/go/ember         https://ember.com/products/ember-mug-2?utm_source=elenas-stack&utm_medium=affiliate 302
+# ── Engine 2: Somatics, Sexual Healing & Alignment Tech ───────────────────
+/go/higherdose    https://higherdose.com/?utm_source=elenas-stack&utm_medium=affiliate          302
+/go/sensate       https://www.getsensate.com/?utm_source=elenas-stack&utm_medium=affiliate      302
+/go/muse          https://choosemuse.com/?utm_source=elenas-stack&utm_medium=affiliate          302
+/go/dame          https://www.dameproducts.com/?utm_source=elenas-stack&utm_medium=affiliate    302
+/go/foria         https://www.foriawellness.com/?utm_source=elenas-stack&utm_medium=affiliate   302
+/go/somavedic     https://somavedic.com/?utm_source=elenas-stack&utm_medium=affiliate           302
 
 # ── Fallback Catch-all: send unknown /go/* to homepage ──────────────────────
 /go/*             /                                                                              302

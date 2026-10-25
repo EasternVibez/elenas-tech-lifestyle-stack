@@ -2,142 +2,142 @@
   "meta": {
     "site": "Elena's Tech & Lifestyle Stack",
     "updated": "2026-10-24",
-    "note": "Production affiliate routing links. Update URLs here and in _redirects when inserting custom affiliate tracking network IDs."
+    "note": "Production affiliate routing links. Dual-engine: AI Creator Tutorial Tools + Somatics & Healing Tech."
   },
-  "workspace_ai": [
-    {
-      "id": "make",
-      "name": "Make.com",
-      "icon": "⚡",
-      "tagline": "Visual workflow automation that connects your AI apps and databases with zero code.",
-      "cloaked_url": "/go/make",
-      "affiliate_url": "https://www.make.com/en?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Free tier available",
-      "highlight": "Saves 12+ hrs/wk",
-      "commission": "Recurring"
-    },
-    {
-      "id": "notion-ai",
-      "name": "Notion AI",
-      "icon": "📝",
-      "tagline": "Connected workspace for notes, projects, docs, and embedded Gemini/GPT intelligence.",
-      "cloaked_url": "/go/notion",
-      "affiliate_url": "https://www.notion.so/product/ai?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Daily Driver",
-      "highlight": "All-in-one OS",
-      "commission": "Recurring"
-    },
-    {
-      "id": "convertkit",
-      "name": "Kit (ConvertKit)",
-      "icon": "📬",
-      "tagline": "The creator marketing platform for newsletter growth, paid recommendations, and automations.",
-      "cloaked_url": "/go/kit",
-      "affiliate_url": "https://kit.com/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Creator standard",
-      "highlight": "Free up to 10k users",
-      "commission": "Recurring"
-    },
-    {
-      "id": "jasper",
-      "name": "Jasper AI",
-      "icon": "✨",
-      "tagline": "Enterprise-ready AI copilot configured to maintain your brand voice across copy and campaigns.",
-      "cloaked_url": "/go/jasper",
-      "affiliate_url": "https://www.jasper.ai/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "High converter",
-      "highlight": "Brand voice engine",
-      "commission": "Recurring"
-    },
-    {
-      "id": "surfer",
-      "name": "Surfer SEO",
-      "icon": "📈",
-      "tagline": "Data-driven SEO auditing and outline scoring to rank articles consistently at the top of Google.",
-      "cloaked_url": "/go/surfer",
-      "affiliate_url": "https://surferseo.com/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Rank booster",
-      "highlight": "SERP data models",
-      "commission": "Recurring"
-    },
-    {
-      "id": "loom",
-      "name": "Loom",
-      "icon": "🎥",
-      "tagline": "Async screen recording with AI summaries that cut out unnecessary 30-minute meetings.",
-      "cloaked_url": "/go/loom",
-      "affiliate_url": "https://www.loom.com/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Essential tool",
-      "highlight": "Instant share links",
-      "commission": "Recurring"
-    }
-  ],
   "lifestyle_wellness": [
     {
-      "id": "oura",
-      "name": "Oura Ring Gen 3",
-      "icon": "💍",
-      "tagline": "Sleek titanium smart ring tracking deep sleep stages, HRV balance, and readiness scores.",
-      "cloaked_url": "/go/oura",
-      "affiliate_url": "https://ouraring.com/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Elena's Pick",
-      "highlight": "7-day battery life",
-      "commission": "One-time"
+      "id": "higherdose",
+      "name": "HigherDOSE Infrared PEMF Mat",
+      "icon": "✨",
+      "tagline": "Pulsed Electromagnetic Field therapy & far-infrared heat for cellular detox, somatic reset, and deep physical restoration.",
+      "cloaked_url": "/go/higherdose",
+      "affiliate_url": "https://higherdose.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Body Transformation",
+      "highlight": "Cellular PEMF + Infrared",
+      "commission": "High-Ticket (10–15%)"
     },
     {
-      "id": "hatch",
-      "name": "Hatch Restore 2",
-      "icon": "🌅",
-      "tagline": "Smart bedside sunrise alarm and sound machine for gentle, cortisol-free morning wakeups.",
-      "cloaked_url": "/go/hatch",
-      "affiliate_url": "https://www.hatch.co/restore-2?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Sleep Upgrade",
-      "highlight": "Gentle dawn simulator",
-      "commission": "One-time"
+      "id": "sensate",
+      "name": "Sensate Vagus Nerve Toning Stone",
+      "icon": "🪨",
+      "tagline": "Infrasonic resonance stone placed on the sternum that emits low-frequency soundscapes to calm the nervous system in 10 minutes.",
+      "cloaked_url": "/go/sensate",
+      "affiliate_url": "https://www.getsensate.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Nervous System Reset",
+      "highlight": "Infrasonic vagus toning",
+      "commission": "Verified Partner (10%)"
     },
     {
-      "id": "theragun",
-      "name": "Theragun Prime",
+      "id": "muse",
+      "name": "Muse S EEG Meditation Headband",
+      "icon": "🧘‍♀️",
+      "tagline": "Multi-sensor headband providing real-time biofeedback on your brainwaves, heart rate, breath, and stillness during meditation.",
+      "cloaked_url": "/go/muse",
+      "affiliate_url": "https://choosemuse.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Brainwave Biofeedback",
+      "highlight": "Real-time EEG neuro-coaching",
+      "commission": "Verified Partner (10%)"
+    },
+    {
+      "id": "dame",
+      "name": "Dame Somatic Intimacy & Pelvic Tech",
+      "icon": "🌸",
+      "tagline": "Doctor-engineered, ergonomic sexual wellness devices crafted to unlock somatic pelvic floor release, pleasure, and emotional tension relief.",
+      "cloaked_url": "/go/dame",
+      "affiliate_url": "https://www.dameproducts.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Sexual Healing",
+      "highlight": "Doctor-designed somatics",
+      "commission": "Verified Partner (20%)"
+    },
+    {
+      "id": "foria",
+      "name": "Foria Botanical Intimacy & Awaken Oil",
+      "icon": "🌿",
+      "tagline": "Clean plant-based botanicals and adaptogens formulated for somatic arousal, pelvic tension relief, and deeper intimacy.",
+      "cloaked_url": "/go/foria",
+      "affiliate_url": "https://www.foriawellness.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Botanical Wellness",
+      "highlight": "Pelvic relaxation & arousal",
+      "commission": "Verified Partner (10%)"
+    },
+    {
+      "id": "somavedic",
+      "name": "Somavedic Frequency & EMF Harmonizer",
+      "icon": "💎",
+      "tagline": "Hand-blown Bohemian crystal device engineered to mitigate 5G/EMF electromagnetic stress and structure coherent living spaces.",
+      "cloaked_url": "/go/somavedic",
+      "affiliate_url": "https://somavedic.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Frequency Alignment",
+      "highlight": "EMF space harmonization",
+      "commission": "High-Ticket (10%)"
+    }
+  ],
+  "workspace_ai": [
+    {
+      "id": "heygen",
+      "name": "HeyGen AI Video Avatar",
+      "icon": "👤",
+      "tagline": "Studio-grade digital avatars and lip-sync video generation to scale short-form video production without a physical camera.",
+      "cloaked_url": "/go/heygen",
+      "affiliate_url": "https://www.heygen.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Elena's Engine",
+      "highlight": "35% Recurring Revenue",
+      "commission": "Recurring SaaS"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs Voice AI",
+      "icon": "🎙️",
+      "tagline": "Industry-leading neural voice cloning that captures human emotion, pacing, and tone across 29 languages.",
+      "cloaked_url": "/go/elevenlabs",
+      "affiliate_url": "https://elevenlabs.io/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Voice Clone Core",
+      "highlight": "22% PartnerStack Recurring",
+      "commission": "Recurring SaaS"
+    },
+    {
+      "id": "opus",
+      "name": "Opus Clip AI Repurposing",
+      "icon": "✂️",
+      "tagline": "AI video repurposing that extracts viral moments from long-form content, reframes speakers, and generates auto-captions.",
+      "cloaked_url": "/go/opus",
+      "affiliate_url": "https://www.opus.pro/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Viral Clipper",
+      "highlight": "25% First-Year Recurring",
+      "commission": "Recurring SaaS"
+    },
+    {
+      "id": "submagic",
+      "name": "Submagic Dynamic Captions",
+      "icon": "🪄",
+      "tagline": "Auto-generates TikTok/Reels captions with emojis, sound effects, B-roll overlays, and zooms in under 2 minutes.",
+      "cloaked_url": "/go/submagic",
+      "affiliate_url": "https://www.submagic.co/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Retention Driver",
+      "highlight": "30% Lifetime Recurring",
+      "commission": "Recurring SaaS"
+    },
+    {
+      "id": "manychat",
+      "name": "ManyChat DM Automation",
+      "icon": "💬",
+      "tagline": "Instagram & TikTok DM automation bot that sends affiliate links instantly whenever someone comments on your videos.",
+      "cloaked_url": "/go/manychat",
+      "affiliate_url": "https://manychat.com/?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Conversion Bot",
+      "highlight": "30–50% PartnerStack Tier",
+      "commission": "Recurring SaaS"
+    },
+    {
+      "id": "make",
+      "name": "Make.com Automation",
       "icon": "⚡",
-      "tagline": "Bluetooth app-guided percussion therapy for muscle recovery, soreness relief, and deep tissue tension.",
-      "cloaked_url": "/go/theragun",
-      "affiliate_url": "https://www.therabody.com/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Post-Workout",
-      "highlight": "Smart force sensor",
-      "commission": "One-time"
-    },
-    {
-      "id": "eight-sleep",
-      "name": "Eight Sleep Pod 4",
-      "icon": "🛏️",
-      "tagline": "Dual-zone dynamic cooling and heating mattress cover with automated biometric feedback.",
-      "cloaked_url": "/go/eightsleep",
-      "affiliate_url": "https://www.eightsleep.com/pod-cover/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Luxury Biohack",
-      "highlight": "+32% deep sleep",
-      "commission": "One-time"
-    },
-    {
-      "id": "whoop",
-      "name": "WHOOP 4.0",
-      "icon": "📊",
-      "tagline": "Screenless 24/7 biometric wrist wearable calculating daily strain, sleep debt, and recovery.",
-      "cloaked_url": "/go/whoop",
-      "affiliate_url": "https://www.whoop.com/?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Elite Fitness",
-      "highlight": "Real-time strain score",
-      "commission": "Recurring"
-    },
-    {
-      "id": "ember",
-      "name": "Ember Smart Mug 2",
-      "icon": "☕",
-      "tagline": "Precision app-controlled heated ceramic mug that maintains your exact drinking temperature for hours.",
-      "cloaked_url": "/go/ember",
-      "affiliate_url": "https://ember.com/products/ember-mug-2?utm_source=elenas-stack&utm_medium=affiliate",
-      "badge": "Desk Classic",
-      "highlight": "App temperature dial",
-      "commission": "One-time"
+      "tagline": "No-code workflow engine connecting ChatGPT, Notion, and cloud storage to automate content ideation and publishing.",
+      "cloaked_url": "/go/make",
+      "affiliate_url": "https://www.make.com/en?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Workflow Core",
+      "highlight": "20% Lifetime Recurring",
+      "commission": "Recurring SaaS"
     }
   ]
 }

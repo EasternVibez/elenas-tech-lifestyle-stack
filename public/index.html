@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elena's Tech & Lifestyle Stack</title>
-  <meta name="description" content="Elena's hand-picked stack of AI workflow tools and lifestyle wellness tech — the exact gear and software she uses daily." />
+  <title>Elena's Stack — Somatics, Healing &amp; AI Creator Tech</title>
+  <meta name="description" content="Elena's hand-picked sanctuary of somatic wellness, sexual healing, meditation gear, and the exact AI creator tools behind her digital presence." />
 
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,25 +16,25 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #090a0f;
-      --surface: #12141c;
-      --surface-hover: #171a25;
-      --border: #212534;
-      --border-subtle: #191c28;
-      --text: #f0f2f8;
-      --text-muted: #8b92a5;
+      --bg: #08090d;
+      --surface: #10121a;
+      --surface-hover: #161824;
+      --border: #1e2230;
+      --border-subtle: #161824;
+      --text: #f1f3f9;
+      --text-muted: #8c93a8;
+      --accent-life: #34d399;     /* Emerald / Jade */
+      --accent-life-glow: rgba(52, 211, 153, 0.16);
       --accent-ai: #818cf8;       /* Lavender / Indigo */
-      --accent-ai-glow: rgba(129, 140, 248, 0.15);
-      --accent-life: #34d399;     /* Emerald / Mint */
-      --accent-life-glow: rgba(52, 211, 153, 0.15);
+      --accent-ai-glow: rgba(129, 140, 248, 0.16);
       --radius-lg: 16px;
       --radius-full: 9999px;
-      --transition: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition: 0.22s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     body {
       font-family: 'Inter', system-ui, sans-serif;
-      background: radial-gradient(circle at 50% 0%, #151828 0%, var(--bg) 55%);
+      background: radial-gradient(circle at 50% 0%, #131728 0%, var(--bg) 60%);
       color: var(--text);
       min-height: 100vh;
       line-height: 1.6;
@@ -45,26 +45,27 @@
       font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     }
 
-    /* ── Top Bar / Header ─────────────────────────────────────────────── */
+    /* ── Top Header ─────────────────────────────────────────────────────── */
     header {
       text-align: center;
       padding: 56px 20px 32px;
-      max-width: 720px;
+      max-width: 740px;
       margin: 0 auto;
     }
 
     .badge-pill {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 5px 14px;
+      gap: 8px;
+      padding: 6px 16px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius-full);
-      font-size: 0.78rem;
-      font-weight: 500;
-      color: var(--text-muted);
-      margin-bottom: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #a7f3d0;
+      margin-bottom: 22px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
 
     .badge-dot {
@@ -76,11 +77,11 @@
     }
 
     h1 {
-      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-size: clamp(2.1rem, 5vw, 2.9rem);
       font-weight: 800;
       letter-spacing: -0.03em;
       line-height: 1.15;
-      background: linear-gradient(180deg, #ffffff 40%, #c4cbdc 100%);
+      background: linear-gradient(180deg, #ffffff 35%, #cbd5e1 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -106,18 +107,18 @@
       border-radius: var(--radius-full);
       padding: 5px;
       gap: 6px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
     }
 
     .tab-btn {
-      padding: 10px 24px;
+      padding: 11px 26px;
       border-radius: var(--radius-full);
       border: 1px solid transparent;
       background: transparent;
       color: var(--text-muted);
       font-family: 'Plus Jakarta Sans', inherit;
       font-size: 0.92rem;
-      font-weight: 600;
+      font-weight: 700;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
@@ -129,13 +130,6 @@
       color: var(--text);
     }
 
-    .tab-btn.active-ai {
-      background: #1e1b4b;
-      color: #c7d2fe;
-      border-color: #4338ca;
-      box-shadow: 0 0 25px var(--accent-ai-glow);
-    }
-
     .tab-btn.active-life {
       background: #064e3b;
       color: #a7f3d0;
@@ -143,9 +137,16 @@
       box-shadow: 0 0 25px var(--accent-life-glow);
     }
 
+    .tab-btn.active-ai {
+      background: #1e1b4b;
+      color: #c7d2fe;
+      border-color: #4338ca;
+      box-shadow: 0 0 25px var(--accent-ai-glow);
+    }
+
     /* ── Main Engine Content ───────────────────────────────────────────── */
     main {
-      max-width: 1080px;
+      max-width: 1100px;
       margin: 0 auto;
       padding: 40px 20px 80px;
     }
@@ -165,7 +166,7 @@
     }
 
     .engine-header {
-      margin-bottom: 28px;
+      margin-bottom: 30px;
       display: flex;
       flex-direction: column;
       gap: 6px;
@@ -173,16 +174,16 @@
 
     .engine-kicker {
       font-size: 0.78rem;
-      font-weight: 700;
+      font-weight: 800;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.12em;
     }
 
-    .engine-kicker.ai { color: var(--accent-ai); }
     .engine-kicker.life { color: var(--accent-life); }
+    .engine-kicker.ai { color: var(--accent-ai); }
 
     .engine-header h2 {
-      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      font-size: clamp(1.45rem, 3.2vw, 1.95rem);
       font-weight: 700;
       letter-spacing: -0.02em;
     }
@@ -217,14 +218,14 @@
       background: var(--surface-hover);
     }
 
-    .card.ai:hover {
-      border-color: #6366f1;
-      box-shadow: 0 12px 35px var(--accent-ai-glow);
-    }
-
     .card.life:hover {
       border-color: #10b981;
-      box-shadow: 0 12px 35px var(--accent-life-glow);
+      box-shadow: 0 14px 38px var(--accent-life-glow);
+    }
+
+    .card.ai:hover {
+      border-color: #6366f1;
+      box-shadow: 0 14px 38px var(--accent-ai-glow);
     }
 
     .card-top {
@@ -235,8 +236,8 @@
 
     .card-icon {
       font-size: 26px;
-      width: 46px;
-      height: 46px;
+      width: 48px;
+      height: 48px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -259,23 +260,23 @@
 
     .badge {
       display: inline-block;
-      margin-top: 4px;
+      margin-top: 5px;
       font-size: 0.72rem;
       font-weight: 600;
-      padding: 2px 8px;
+      padding: 3px 9px;
       border-radius: 6px;
-    }
-
-    .badge.ai {
-      background: rgba(129, 140, 248, 0.12);
-      color: var(--accent-ai);
-      border: 1px solid rgba(129, 140, 248, 0.25);
     }
 
     .badge.life {
       background: rgba(52, 211, 153, 0.12);
-      color: var(--accent-life);
-      border: 1px solid rgba(52, 211, 153, 0.25);
+      color: #6ee7b7;
+      border: 1px solid rgba(52, 211, 153, 0.3);
+    }
+
+    .badge.ai {
+      background: rgba(129, 140, 248, 0.12);
+      color: #a5b4fc;
+      border: 1px solid rgba(129, 140, 248, 0.3);
     }
 
     .card-desc {
@@ -288,9 +289,9 @@
       display: flex;
       align-items: center;
       gap: 8px;
-      font-size: 0.76rem;
+      font-size: 0.78rem;
       color: var(--text-muted);
-      padding-top: 4px;
+      padding-top: 6px;
       border-top: 1px dashed var(--border-subtle);
     }
 
@@ -309,7 +310,7 @@
 
     .commission-type {
       font-size: 0.74rem;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--text-muted);
     }
 
@@ -327,16 +328,6 @@
       transition: all var(--transition);
     }
 
-    .btn-cta.ai {
-      background: var(--accent-ai);
-      color: #0c0e17;
-    }
-
-    .btn-cta.ai:hover {
-      background: #a5b4fc;
-      box-shadow: 0 4px 18px rgba(129, 140, 248, 0.35);
-    }
-
     .btn-cta.life {
       background: var(--accent-life);
       color: #06241a;
@@ -344,13 +335,23 @@
 
     .btn-cta.life:hover {
       background: #6ee7b7;
-      box-shadow: 0 4px 18px rgba(52, 211, 153, 0.35);
+      box-shadow: 0 4px 20px rgba(52, 211, 153, 0.4);
+    }
+
+    .btn-cta.ai {
+      background: var(--accent-ai);
+      color: #0c0e17;
+    }
+
+    .btn-cta.ai:hover {
+      background: #a5b4fc;
+      box-shadow: 0 4px 20px rgba(129, 140, 248, 0.4);
     }
 
     /* ── Section Jumper ────────────────────────────────────────────────── */
     .switch-cta-box {
       margin-top: 56px;
-      padding: 28px;
+      padding: 30px;
       border-radius: var(--radius-lg);
       background: var(--surface);
       border: 1px solid var(--border);
@@ -373,7 +374,7 @@
       font-family: 'Plus Jakarta Sans', inherit;
       font-size: 0.9rem;
       font-weight: 600;
-      padding: 10px 22px;
+      padding: 10px 24px;
       border-radius: var(--radius-full);
       cursor: pointer;
       transition: all var(--transition);
@@ -391,7 +392,7 @@
       text-align: center;
       font-size: 0.82rem;
       color: var(--text-muted);
-      max-width: 800px;
+      max-width: 820px;
       margin: 0 auto;
       line-height: 1.65;
     }
@@ -412,59 +413,59 @@
   <header>
     <div class="badge-pill">
       <span class="badge-dot"></span>
-      <span>Elena's Personal Daily Stack</span>
+      <span>Elena's Curated Sanctuary &amp; Creation Stack</span>
     </div>
-    <h1>Tech &amp; Lifestyle Stack</h1>
-    <p class="subtitle">Two focused engines: high-converting AI SaaS automation tools and smart wellness biohacking tech.</p>
+    <h1>Somatics, Healing &amp; AI Tech</h1>
+    <p class="subtitle">A dual-engine space: non-generic tools for nervous system regulation, sexual healing, and the exact AI stack behind Elena's digital creation.</p>
   </header>
 
-  <!-- ── Engine Switcher ─────────────────────────────────────────────────── -->
+  <!-- ── Engine Switcher (Default: Life & Somatics) ──────────────────────── -->
   <div class="toggle-container">
     <div class="toggle-bar">
-      <button class="tab-btn active-ai" id="tab-ai" onclick="switchEngine('ai')">
-        <span>⚡</span>
-        <span>Workflow &amp; AI Tools</span>
-      </button>
-      <button class="tab-btn" id="tab-life" onclick="switchEngine('life')">
+      <button class="tab-btn active-life" id="tab-life" onclick="switchEngine('life')">
         <span>🌿</span>
-        <span>Lifestyle &amp; Wellness Tech</span>
+        <span>Somatics, Healing &amp; Alignment</span>
+      </button>
+      <button class="tab-btn" id="tab-ai" onclick="switchEngine('ai')">
+        <span>⚡</span>
+        <span>AI Creator &amp; Tutorial Stack</span>
       </button>
     </div>
   </div>
 
   <main>
-    <!-- ── Engine 1: Workspace & AI Automation ──────────────────────────── -->
-    <section class="engine-view active" id="engine-ai">
+    <!-- ── Engine 1 (Primary): Somatics, Sexual Healing & Alignment ──────── -->
+    <section class="engine-view active" id="engine-life">
       <div class="engine-header">
-        <span class="engine-kicker ai">Engine 1 · Workspace &amp; AI Automation</span>
-        <h2>High-Leverage Software &amp; Recurring Tools</h2>
-        <p>The exact apps I pay for to run operations, marketing, and client delivery on autopilot.</p>
-      </div>
-
-      <div class="grid" id="grid-ai"></div>
-
-      <div class="switch-cta-box">
-        <p>Looking for smart health gear and bedroom biohacking tools instead?</p>
-        <button class="switch-btn" onclick="switchEngine('life')">
-          Explore Lifestyle &amp; Wellness Tech →
-        </button>
-      </div>
-    </section>
-
-    <!-- ── Engine 2: Lifestyle & Wellness Tech ──────────────────────────── -->
-    <section class="engine-view" id="engine-life">
-      <div class="engine-header">
-        <span class="engine-kicker life">Engine 2 · Lifestyle &amp; Wellness Tech</span>
-        <h2>Smart Wellness, Sleep &amp; Biohack Tech</h2>
-        <p>App-controlled hardware, sleep tracking, and daily recovery gear worth the investment.</p>
+        <span class="engine-kicker life">Engine 1 · Somatics, Healing &amp; Body Alignment</span>
+        <h2>Nervous System Regulation &amp; Somatic Pleasure Tech</h2>
+        <p>Infrasonic resonance, doctor-engineered intimacy devices, EEG brainwave coaching, and cellular infrared transformation.</p>
       </div>
 
       <div class="grid" id="grid-life"></div>
 
       <div class="switch-cta-box">
-        <p>Looking for no-code automation and creator SaaS tools instead?</p>
+        <p>Curious about how Elena generates video, clones voice, and automates her content?</p>
         <button class="switch-btn" onclick="switchEngine('ai')">
-          ← Explore Workflow &amp; AI Tools
+          Explore AI Creator &amp; Tutorial Stack →
+        </button>
+      </div>
+    </section>
+
+    <!-- ── Engine 2: AI Influencer & Tutorial Stack ─────────────────────── -->
+    <section class="engine-view" id="engine-ai">
+      <div class="engine-header">
+        <span class="engine-kicker ai">Engine 2 · AI Influencer Video Tutorial Stack</span>
+        <h2>How I Was Made &amp; Screen Tutorial Workflows</h2>
+        <p>The exact software I use to generate avatars, clone vocal inflection, auto-clip viral moments, and automate DM funnels.</p>
+      </div>
+
+      <div class="grid" id="grid-ai"></div>
+
+      <div class="switch-cta-box">
+        <p>Looking for somatic body alignment, meditation, and sexual healing tech instead?</p>
+        <button class="switch-btn" onclick="switchEngine('life')">
+          ← Back to Somatics &amp; Healing Tech
         </button>
       </div>
     </section>
@@ -472,29 +473,25 @@
 
   <!-- ── Footer & FTC Disclosure ────────────────────────────────────────── -->
   <footer>
-    <p><strong>Affiliate Disclosure:</strong> When you purchase through links on this site, I may earn an affiliate commission at zero additional cost to you. I only recommend tools and hardware that deliver measurable real-world results.</p>
-    <p style="margin-top: 10px; font-size: 0.75rem; color: #585f73;">Powered by Elena's Dual-Engine Affiliate Architecture on Cloudflare Pages.</p>
+    <p><strong>Affiliate Disclosure:</strong> When you purchase through links on this platform, I may earn an affiliate commission at zero additional cost to you. I only endorse biohacking hardware, somatic tools, and software that produce authentic, measurable transformation.</p>
+    <p style="margin-top: 10px; font-size: 0.75rem; color: #585f73;">Elena's Tech &amp; Lifestyle Stack · Hosted on Cloudflare Pages.</p>
   </footer>
 
   <!-- ── Dynamic Renderer ───────────────────────────────────────────────── -->
   <script>
     function switchEngine(type) {
-      const isAi = type === 'ai';
-      document.getElementById('engine-ai').classList.toggle('active', isAi);
-      document.getElementById('engine-life').classList.toggle('active', !isAi);
+      const isLife = type === 'life';
+      document.getElementById('engine-life').classList.toggle('active', isLife);
+      document.getElementById('engine-ai').classList.toggle('active', !isLife);
 
-      const tabAi   = document.getElementById('tab-ai');
       const tabLife = document.getElementById('tab-life');
+      const tabAi   = document.getElementById('tab-ai');
 
-      tabAi.className   = 'tab-btn' + (isAi  ? ' active-ai'   : '');
-      tabLife.className = 'tab-btn' + (!isAi ? ' active-life' : '');
+      tabLife.className = 'tab-btn' + (isLife  ? ' active-life' : '');
+      tabAi.className   = 'tab-btn' + (!isLife ? ' active-ai'   : '');
     }
 
     function createCard(item, engine) {
-      const commissionLabel = item.commission === 'Recurring'
-        ? '🔁 Recurring SaaS'
-        : '💰 Verified Gear';
-
       return `
         <article class="card ${engine}">
           <div>
@@ -510,14 +507,14 @@
 
           <div>
             <div class="card-meta">
-              <span>Highlight:</span>
+              <span>Key Focus:</span>
               <span class="card-highlight">${item.highlight}</span>
             </div>
 
             <div class="card-action">
-              <span class="commission-type">${commissionLabel}</span>
+              <span class="commission-type">${item.commission}</span>
               <a class="btn-cta ${engine}" href="${item.cloaked_url}" target="_blank" rel="noopener noreferrer">
-                Visit Official Site →
+                Explore Gear →
               </a>
             </div>
           </div>
@@ -528,13 +525,13 @@
     fetch('/links.json')
       .then(res => res.json())
       .then(data => {
-        document.getElementById('grid-ai').innerHTML =
-          data.workspace_ai.map(item => createCard(item, 'ai')).join('');
         document.getElementById('grid-life').innerHTML =
           data.lifestyle_wellness.map(item => createCard(item, 'life')).join('');
+        document.getElementById('grid-ai').innerHTML =
+          data.workspace_ai.map(item => createCard(item, 'ai')).join('');
       })
       .catch(err => {
-        console.error('Failed to load links:', err);
+        console.error('Failed to load catalog:', err);
       });
   </script>
 </body>

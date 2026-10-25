@@ -1,76 +1,55 @@
-# Site Strategy — Elena's Tech & Lifestyle Stack
+# Site Strategy — Elena's Somatics, Healing & AI Creator Stack
 
 ## Brand Positioning
-A clean, trusted resource where Elena recommends the exact tools and gear she actually uses — split into two focused engines so visitors self-select into the right category instantly.
+A specialized, elevated dual-engine platform curated by Elena (an AI influencer) focused on:
+1. **Somatic Healing & Transformation Tech:** Non-generic, high-ticket wellness including sexual healing, vagus nerve resonance, EEG meditation, and frequency alignment.
+2. **AI Influencer Tutorial Stack:** The exact software suite used to generate her avatar, voice, captions, and DM automations that she can easily teach in screen-recorded tutorials.
 
 ---
 
-## Engine 1: Workspace & AI Automation 🧠
-**Audience:** Freelancers, small business owners, creators, solopreneurs automating their workflow.
+## Engine 1: Somatics, Sexual Healing & Body Alignment Tech 🌿 *(Primary)*
+**Audience:** High-intent wellness seekers, somatic practitioners, women exploring pelvic & sexual healing, biohackers, and conscious creators.
 
-**Commission Model:** Recurring SaaS (monthly/annual subscription commissions — often 20-50% recurring).
+**Commission Model:** High-Ticket Bounties & Verified Direct Programs ($30 to $250+ per sale).
 
-### Anchor Tools (Affiliate Programs)
-| Tool | Category | Why It Converts |
-|------|----------|----------------|
-| Make.com | Automation | Visual no-code automation, generous free tier → upgrade path |
-| Notion AI | Productivity | Viral team adoption, annual plan upsells |
-| ConvertKit / Kit | Email Marketing | Creator-focused, high lifetime value |
-| Jasper AI | AI Writing | High ticket, strong recurring |
-| Descript | Podcast/Video editing AI | Creator niche, recurring |
-| Loom | Async Video | Free → Team plan conversion |
-| Surfer SEO | SEO + AI | Monthly recurring, strong niche |
-
-**Content Hooks:**
-- "My exact automation stack that saves me 10 hrs/week"
-- "The 3 AI tools I pay for every single month"
-- "Free → Paid upgrade path for solopreneurs"
+| Product | Focus / Niche | High-Ticket Payout | Network |
+| :--- | :--- | :--- | :--- |
+| **HigherDOSE Infrared PEMF Mat** | Cellular detox, far-infrared, and somatic reset | **10%–15%** ($60–$180/order) | Awin / Direct |
+| **Sensate Stone** | Infrasonic vagus nerve toning & panic/stress stop | **10%** ($30/order) | UpPromote |
+| **Muse S Headband** | EEG brainwave biofeedback & sleep coaching | **10%** ($25–$40/order) | Direct / Ambassador |
+| **Dame Products** | Doctor-engineered sexual healing & pelvic wellness | **20%** | Refersion |
+| **Foria Botanical Intimacy** | Somatic arousal oil & pelvic floor release | **10%** | Impact.com |
+| **Somavedic Harmonizer** | Space harmonization & EMF/frequency alignment | **10%** ($80–$250/order) | Direct / Impact |
 
 ---
 
-## Engine 2: Lifestyle & Wellness Tech 💚
-**Audience:** Health-conscious consumers, biohackers, remote workers wanting a better home environment.
+## Engine 2: AI Influencer Video Tutorial Stack ⚡
+**Audience:** Creators, coaches, and digital entrepreneurs who want to know: *"How is Elena created and automated?"*
 
-**Commission Model:** One-time product commissions (Amazon Associates, ShareASale, brand direct) — 4-15%.
+**Commission Model:** Monthly/Annual Recurring SaaS (20%–50% recurring).
 
-### Anchor Products (Affiliate Programs)
-| Product | Category | Platform |
-|---------|----------|----------|
-| Oura Ring | Sleep/Recovery tracking | Direct affiliate |
-| Hatch Restore | Smart alarm / sleep light | Amazon + Direct |
-| Theragun / Therabody | Recovery tech | Direct / ShareASale |
-| Eight Sleep Pod | Smart mattress | Direct affiliate (high ticket) |
-| WHOOP | Fitness wearable | Direct affiliate |
-| Ember Mug | Smart mug | Amazon Associates |
-| Keurig / Breville Smart | Smart coffee | Amazon Associates |
-
-**Content Hooks:**
-- "Gadgets that actually changed my morning routine"
-- "The sleep tech that fixed my recovery"
-- "App-controlled gear worth the splurge"
+| Tool | Tutorial Angle | Commission | Network |
+| :--- | :--- | :--- | :--- |
+| **HeyGen** | Avatar generation & 30-Reels batching | **35% recurring** | Rewardful |
+| **ElevenLabs** | Voice cloning with emotional cadence | **22% recurring** | PartnerStack |
+| **Opus Clip** | Long video to short-form auto-hook repurposing | **25% recurring** | PayPal / Direct |
+| **Submagic** | Viral captions, zooms, sound effects | **30% lifetime** | Direct |
+| **ManyChat** | "Comment STACK" auto-DM conversion funnel | **30%–50% recurring** | PartnerStack |
+| **Make.com** | Automated script-to-video workflow pipeline | **20% recurring** | FirstPromoter |
 
 ---
 
-## Monetization Priority
-1. **Recurring SaaS commissions** — highest LTV, build first.
-2. **High-ticket wellness** (Eight Sleep, Oura) — one sale = big payout.
-3. **Amazon volume plays** — lower % but high-trust brand halo.
-
----
-
-## Tracking & Link Strategy
-- All affiliate URLs stored in `/public/links.json`.
-- All outbound links cloaked via `/go/*` redirect rules in `/_redirects`.
-- UTM parameters appended where affiliate programs allow.
-- Never expose raw affiliate URLs on-page.
-
----
-
-## Platform Stack (Zero-Cost)
-| Layer | Tool | Cost |
-|-------|------|------|
-| Hosting | Cloudflare Pages | Free |
-| Domain | `*.pages.dev` subdomain (or custom later) | Free |
-| Source Control | GitHub (single repo) | Free |
-| Analytics | Cloudflare Web Analytics | Free |
-| CMS | JSON file (`links.json`) edited via GitHub | Free |
+## Cloaked Link Routing Schema
+All links are cloaked via Cloudflare Pages `public/_redirects`:
+- `/go/higherdose` → HigherDOSE
+- `/go/sensate` → Sensate
+- `/go/muse` → Muse EEG
+- `/go/dame` → Dame Products
+- `/go/foria` → Foria Botanical
+- `/go/somavedic` → Somavedic
+- `/go/heygen` → HeyGen
+- `/go/elevenlabs` → ElevenLabs
+- `/go/opus` → Opus Clip
+- `/go/submagic` → Submagic
+- `/go/manychat` → ManyChat
+- `/go/make` → Make.com
