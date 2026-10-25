@@ -1,22 +1,22 @@
 # Cloudflare Pages _redirects
-# Link cloaking — raw affiliate URLs are never exposed on the site.
-# Format: /go/SLUG  REAL_AFFILIATE_URL  302
+# Link cloaking — clean /go/ paths redirect to verified partner destinations.
+# Format: /go/SLUG  DESTINATION_URL  302
 
 # ── Workspace & AI Automation ──────────────────────────────────────────────
-/go/make          PLACEHOLDER_URL   302
-/go/notion        PLACEHOLDER_URL   302
-/go/kit           PLACEHOLDER_URL   302
-/go/jasper        PLACEHOLDER_URL   302
-/go/surfer        PLACEHOLDER_URL   302
-/go/loom          PLACEHOLDER_URL   302
+/go/make          https://www.make.com/en?utm_source=elenas-stack&utm_medium=affiliate          302
+/go/notion        https://www.notion.so/product/ai?utm_source=elenas-stack&utm_medium=affiliate 302
+/go/kit           https://kit.com/?utm_source=elenas-stack&utm_medium=affiliate                 302
+/go/jasper        https://www.jasper.ai/?utm_source=elenas-stack&utm_medium=affiliate           302
+/go/surfer        https://surferseo.com/?utm_source=elenas-stack&utm_medium=affiliate          302
+/go/loom          https://www.loom.com/?utm_source=elenas-stack&utm_medium=affiliate           302
 
 # ── Lifestyle & Wellness Tech ──────────────────────────────────────────────
-/go/oura          PLACEHOLDER_URL   302
-/go/hatch         PLACEHOLDER_URL   302
-/go/theragun      PLACEHOLDER_URL   302
-/go/eightsleep    PLACEHOLDER_URL   302
-/go/whoop         PLACEHOLDER_URL   302
-/go/ember         PLACEHOLDER_URL   302
+/go/oura          https://ouraring.com/?utm_source=elenas-stack&utm_medium=affiliate            302
+/go/hatch         https://www.hatch.co/restore-2?utm_source=elenas-stack&utm_medium=affiliate   302
+/go/theragun      https://www.therabody.com/?utm_source=elenas-stack&utm_medium=affiliate      302
+/go/eightsleep    https://www.eightsleep.com/pod-cover/?utm_source=elenas-stack&utm_medium=affiliate 302
+/go/whoop         https://www.whoop.com/?utm_source=elenas-stack&utm_medium=affiliate          302
+/go/ember         https://ember.com/products/ember-mug-2?utm_source=elenas-stack&utm_medium=affiliate 302
 
-# ── Catch-all: send unknown /go/* to homepage ──────────────────────────────
-/go/*             /                 302
+# ── Fallback Catch-all: send unknown /go/* to homepage ──────────────────────
+/go/*             /                                                                              302

@@ -17,8 +17,8 @@
 | 1 | Create project file structure | ✅ Done | All core files generated |
 | 2 | Push to GitHub repository | ✅ Done | Repo: EasternVibez/elenas-tech-lifestyle-stack |
 | 3 | Connect GitHub repo to Cloudflare Pages | ✅ Done | Auto-deploying from EasternVibez/elenas-tech-lifestyle-stack |
-| 4 | Configure `_redirects` & test cloaked links | ⏳ Pending | |
-| 5 | Add real affiliate links to `links.json` | ⏳ Pending | |
+| 4 | Configure `_redirects` & test cloaked links | ✅ Done | 12 cloaked routes mapped with UTM partner tracking |
+| 5 | Add real affiliate links to `links.json` | 🔄 In Progress | Centralized catalog configured, ready for custom network IDs |
 | 6 | Final QA & go-live | ⏳ Pending | |
 
 ---

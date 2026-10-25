@@ -4,406 +4,538 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elena's Tech & Lifestyle Stack</title>
-  <meta name="description" content="Elena's hand-picked stack of AI workflow tools and lifestyle wellness tech — the stuff she actually uses and pays for." />
+  <meta name="description" content="Elena's hand-picked stack of AI workflow tools and lifestyle wellness tech — the exact gear and software she uses daily." />
 
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <style>
-    /* ── Reset & Base ─────────────────────────────────────────────────── */
+    /* ── Reset & Theme ─────────────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #0f0f13;
-      --surface: #18181f;
-      --surface2: #22222d;
-      --border: #2a2a38;
-      --text: #e8e8f0;
-      --muted: #888899;
-      --accent-ai: #7c6ff7;       /* purple — AI/Workspace */
-      --accent-ai-glow: rgba(124,111,247,0.18);
-      --accent-life: #3ecf8e;     /* green — Lifestyle */
-      --accent-life-glow: rgba(62,207,142,0.15);
-      --radius: 14px;
-      --transition: 0.22s cubic-bezier(0.4,0,0.2,1);
+      --bg: #090a0f;
+      --surface: #12141c;
+      --surface-hover: #171a25;
+      --border: #212534;
+      --border-subtle: #191c28;
+      --text: #f0f2f8;
+      --text-muted: #8b92a5;
+      --accent-ai: #818cf8;       /* Lavender / Indigo */
+      --accent-ai-glow: rgba(129, 140, 248, 0.15);
+      --accent-life: #34d399;     /* Emerald / Mint */
+      --accent-life-glow: rgba(52, 211, 153, 0.15);
+      --radius-lg: 16px;
+      --radius-full: 9999px;
+      --transition: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
     }
-
-    html { scroll-behavior: smooth; }
 
     body {
       font-family: 'Inter', system-ui, sans-serif;
-      background: var(--bg);
+      background: radial-gradient(circle at 50% 0%, #151828 0%, var(--bg) 55%);
       color: var(--text);
       min-height: 100vh;
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ── Header ───────────────────────────────────────────────────────── */
-    header {
-      text-align: center;
-      padding: 64px 24px 40px;
+    h1, h2, h3, .brand-title {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     }
 
-    .avatar {
-      width: 72px;
-      height: 72px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--accent-ai), var(--accent-life));
-      display: flex;
+    /* ── Top Bar / Header ─────────────────────────────────────────────── */
+    header {
+      text-align: center;
+      padding: 56px 20px 32px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .badge-pill {
+      display: inline-flex;
       align-items: center;
-      justify-content: center;
-      font-size: 28px;
-      margin: 0 auto 20px;
+      gap: 6px;
+      padding: 5px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-full);
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .badge-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent-life);
+      box-shadow: 0 0 10px var(--accent-life);
     }
 
     h1 {
-      font-size: clamp(1.6rem, 4vw, 2.4rem);
-      font-weight: 700;
-      letter-spacing: -0.02em;
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      background: linear-gradient(180deg, #ffffff 40%, #c4cbdc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
-    .tagline {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 1rem;
-      max-width: 480px;
-      margin-left: auto;
-      margin-right: auto;
+    .subtitle {
+      margin-top: 14px;
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.6;
     }
 
-    /* ── Engine Toggle ────────────────────────────────────────────────── */
-    .toggle-wrap {
+    /* ── Engine Switcher (Toggle) ───────────────────────────────────────── */
+    .toggle-container {
       display: flex;
       justify-content: center;
-      margin: 36px 24px 0;
+      margin: 32px 16px 0;
     }
 
-    .toggle {
-      display: flex;
+    .toggle-bar {
+      display: inline-flex;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 100px;
+      border-radius: var(--radius-full);
       padding: 5px;
-      gap: 4px;
+      gap: 6px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     }
 
-    .toggle-btn {
+    .tab-btn {
       padding: 10px 24px;
-      border-radius: 100px;
-      border: none;
+      border-radius: var(--radius-full);
+      border: 1px solid transparent;
       background: transparent;
-      color: var(--muted);
-      font-family: inherit;
-      font-size: 0.9rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: var(--transition);
-      white-space: nowrap;
-    }
-
-    .toggle-btn.active-ai {
-      background: var(--accent-ai);
-      color: #fff;
-      box-shadow: 0 0 20px var(--accent-ai-glow);
-    }
-
-    .toggle-btn.active-life {
-      background: var(--accent-life);
-      color: #0f0f13;
-      box-shadow: 0 0 20px var(--accent-life-glow);
-    }
-
-    /* ── Sections ─────────────────────────────────────────────────────── */
-    .section {
-      display: none;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 48px 24px 80px;
-    }
-
-    .section.active { display: block; }
-
-    .section-header {
-      margin-bottom: 32px;
-    }
-
-    .section-label {
-      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-family: 'Plus Jakarta Sans', inherit;
+      font-size: 0.92rem;
       font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-bottom: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all var(--transition);
     }
 
-    .section-label.ai { color: var(--accent-ai); }
-    .section-label.life { color: var(--accent-life); }
+    .tab-btn:hover {
+      color: var(--text);
+    }
 
-    .section h2 {
-      font-size: clamp(1.3rem, 3vw, 1.9rem);
+    .tab-btn.active-ai {
+      background: #1e1b4b;
+      color: #c7d2fe;
+      border-color: #4338ca;
+      box-shadow: 0 0 25px var(--accent-ai-glow);
+    }
+
+    .tab-btn.active-life {
+      background: #064e3b;
+      color: #a7f3d0;
+      border-color: #059669;
+      box-shadow: 0 0 25px var(--accent-life-glow);
+    }
+
+    /* ── Main Engine Content ───────────────────────────────────────────── */
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .engine-view {
+      display: none;
+      animation: fadeIn 0.25s ease-out;
+    }
+
+    .engine-view.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .engine-header {
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .engine-kicker {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .engine-kicker.ai { color: var(--accent-ai); }
+    .engine-kicker.life { color: var(--accent-life); }
+
+    .engine-header h2 {
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
       font-weight: 700;
       letter-spacing: -0.02em;
     }
 
-    .section-desc {
-      margin-top: 8px;
-      color: var(--muted);
-      font-size: 0.95rem;
+    .engine-header p {
+      color: var(--text-muted);
+      font-size: 0.98rem;
     }
 
-    /* ── Cards ────────────────────────────────────────────────────────── */
+    /* ── Product Cards Grid ───────────────────────────────────────────── */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
     }
 
     .card {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius);
+      border-radius: var(--radius-lg);
       padding: 24px;
       display: flex;
       flex-direction: column;
-      gap: 12px;
-      transition: border-color var(--transition), transform var(--transition);
+      justify-content: space-between;
+      gap: 16px;
+      transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+      position: relative;
     }
 
     .card:hover {
-      transform: translateY(-2px);
+      transform: translateY(-3px);
+      background: var(--surface-hover);
     }
 
-    .card.ai:hover { border-color: var(--accent-ai); }
-    .card.life:hover { border-color: var(--accent-life); }
+    .card.ai:hover {
+      border-color: #6366f1;
+      box-shadow: 0 12px 35px var(--accent-ai-glow);
+    }
+
+    .card.life:hover {
+      border-color: #10b981;
+      box-shadow: 0 12px 35px var(--accent-life-glow);
+    }
 
     .card-top {
       display: flex;
       align-items: flex-start;
-      justify-content: space-between;
-      gap: 8px;
+      gap: 14px;
     }
 
-    .card h3 {
-      font-size: 1.05rem;
-      font-weight: 600;
-    }
-
-    .badge {
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 3px 9px;
-      border-radius: 100px;
-      white-space: nowrap;
+    .card-icon {
+      font-size: 26px;
+      width: 46px;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
       flex-shrink: 0;
     }
 
-    .badge.ai {
-      background: var(--accent-ai-glow);
-      color: var(--accent-ai);
-      border: 1px solid rgba(124,111,247,0.3);
-    }
-
-    .badge.life {
-      background: var(--accent-life-glow);
-      color: var(--accent-life);
-      border: 1px solid rgba(62,207,142,0.3);
-    }
-
-    .card p {
-      font-size: 0.88rem;
-      color: var(--muted);
+    .card-title-group {
       flex: 1;
     }
 
-    .card-footer {
+    .card-title-group h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+
+    .badge.ai {
+      background: rgba(129, 140, 248, 0.12);
+      color: var(--accent-ai);
+      border: 1px solid rgba(129, 140, 248, 0.25);
+    }
+
+    .badge.life {
+      background: rgba(52, 211, 153, 0.12);
+      color: var(--accent-life);
+      border: 1px solid rgba(52, 211, 153, 0.25);
+    }
+
+    .card-desc {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      padding-top: 4px;
+      border-top: 1px dashed var(--border-subtle);
+    }
+
+    .card-highlight {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .card-action {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 8px;
+      gap: 12px;
+      margin-top: 4px;
     }
 
-    .commission-tag {
-      font-size: 0.72rem;
-      color: var(--muted);
+    .commission-type {
+      font-size: 0.74rem;
+      font-weight: 500;
+      color: var(--text-muted);
     }
 
-    .cta-btn {
-      display: inline-block;
-      padding: 9px 18px;
-      border-radius: 8px;
-      font-family: inherit;
-      font-size: 0.85rem;
-      font-weight: 600;
-      text-decoration: none;
-      transition: opacity var(--transition), box-shadow var(--transition);
-      cursor: pointer;
-    }
-
-    .cta-btn.ai {
-      background: var(--accent-ai);
-      color: #fff;
-    }
-
-    .cta-btn.life {
-      background: var(--accent-life);
-      color: #0f0f13;
-    }
-
-    .cta-btn:hover { opacity: 0.88; }
-
-    /* ── Divider ──────────────────────────────────────────────────────── */
-    .or-divider {
-      text-align: center;
-      margin: 60px 0 0;
-      padding: 32px 24px 0;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
+    .btn-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-family: 'Plus Jakarta Sans', inherit;
       font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all var(--transition);
     }
 
-    .or-divider button {
-      background: none;
+    .btn-cta.ai {
+      background: var(--accent-ai);
+      color: #0c0e17;
+    }
+
+    .btn-cta.ai:hover {
+      background: #a5b4fc;
+      box-shadow: 0 4px 18px rgba(129, 140, 248, 0.35);
+    }
+
+    .btn-cta.life {
+      background: var(--accent-life);
+      color: #06241a;
+    }
+
+    .btn-cta.life:hover {
+      background: #6ee7b7;
+      box-shadow: 0 4px 18px rgba(52, 211, 153, 0.35);
+    }
+
+    /* ── Section Jumper ────────────────────────────────────────────────── */
+    .switch-cta-box {
+      margin-top: 56px;
+      padding: 28px;
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .switch-cta-box p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .switch-btn {
+      background: var(--bg);
       border: 1px solid var(--border);
       color: var(--text);
-      font-family: inherit;
-      font-size: 0.88rem;
-      padding: 8px 20px;
-      border-radius: 100px;
+      font-family: 'Plus Jakarta Sans', inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 10px 22px;
+      border-radius: var(--radius-full);
       cursor: pointer;
-      margin-top: 12px;
-      transition: border-color var(--transition);
+      transition: all var(--transition);
     }
 
-    .or-divider button:hover { border-color: var(--muted); }
+    .switch-btn:hover {
+      border-color: var(--text-muted);
+      transform: translateY(-1px);
+    }
 
-    /* ── Disclosure ────────────────────────────────────────────────────── */
+    /* ── Footer ────────────────────────────────────────────────────────── */
     footer {
-      text-align: center;
-      padding: 24px;
-      color: var(--muted);
-      font-size: 0.78rem;
       border-top: 1px solid var(--border);
+      padding: 36px 20px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.65;
     }
 
-    /* ── Responsive ───────────────────────────────────────────────────── */
-    @media (max-width: 500px) {
-      .toggle-btn { padding: 9px 16px; font-size: 0.82rem; }
+    footer strong {
+      color: var(--text);
+    }
+
+    @media (max-width: 640px) {
       .grid { grid-template-columns: 1fr; }
+      .tab-btn { padding: 9px 18px; font-size: 0.85rem; }
     }
   </style>
 </head>
 <body>
 
-  <!-- ── Header ─────────────────────────────────────────────────────────── -->
+  <!-- ── Top Header ──────────────────────────────────────────────────────── -->
   <header>
-    <div class="avatar">✦</div>
-    <h1>Elena's Tech &amp; Lifestyle Stack</h1>
-    <p class="tagline">The exact tools and gear I pay for — split into two engines so you can find what's relevant to you.</p>
+    <div class="badge-pill">
+      <span class="badge-dot"></span>
+      <span>Elena's Personal Daily Stack</span>
+    </div>
+    <h1>Tech &amp; Lifestyle Stack</h1>
+    <p class="subtitle">Two focused engines: high-converting AI SaaS automation tools and smart wellness biohacking tech.</p>
   </header>
 
-  <!-- ── Toggle ─────────────────────────────────────────────────────────── -->
-  <div class="toggle-wrap">
-    <div class="toggle">
-      <button class="toggle-btn active-ai" id="btn-ai" onclick="showEngine('ai')">🧠 Workflow &amp; AI Tools</button>
-      <button class="toggle-btn" id="btn-life" onclick="showEngine('life')">💚 Lifestyle &amp; Wellness</button>
+  <!-- ── Engine Switcher ─────────────────────────────────────────────────── -->
+  <div class="toggle-container">
+    <div class="toggle-bar">
+      <button class="tab-btn active-ai" id="tab-ai" onclick="switchEngine('ai')">
+        <span>⚡</span>
+        <span>Workflow &amp; AI Tools</span>
+      </button>
+      <button class="tab-btn" id="tab-life" onclick="switchEngine('life')">
+        <span>🌿</span>
+        <span>Lifestyle &amp; Wellness Tech</span>
+      </button>
     </div>
   </div>
 
-  <!-- ── Engine 1: Workspace & AI Automation ────────────────────────────── -->
-  <section class="section active" id="engine-ai">
-    <div class="section-header">
-      <div class="section-label ai">Engine 1 · Workspace &amp; AI Automation</div>
-      <h2>Tools that run my business on autopilot.</h2>
-      <p class="section-desc">Recurring SaaS tools I actually subscribe to. Most have generous free tiers — the upgrade sells itself.</p>
-    </div>
+  <main>
+    <!-- ── Engine 1: Workspace & AI Automation ──────────────────────────── -->
+    <section class="engine-view active" id="engine-ai">
+      <div class="engine-header">
+        <span class="engine-kicker ai">Engine 1 · Workspace &amp; AI Automation</span>
+        <h2>High-Leverage Software &amp; Recurring Tools</h2>
+        <p>The exact apps I pay for to run operations, marketing, and client delivery on autopilot.</p>
+      </div>
 
-    <div class="grid" id="grid-ai"></div>
+      <div class="grid" id="grid-ai"></div>
 
-    <div class="or-divider">
-      Not into software? Switch engines.
-      <br>
-      <button onclick="showEngine('life')">Show me Lifestyle &amp; Wellness Tech →</button>
-    </div>
-  </section>
+      <div class="switch-cta-box">
+        <p>Looking for smart health gear and bedroom biohacking tools instead?</p>
+        <button class="switch-btn" onclick="switchEngine('life')">
+          Explore Lifestyle &amp; Wellness Tech →
+        </button>
+      </div>
+    </section>
 
-  <!-- ── Engine 2: Lifestyle & Wellness Tech ────────────────────────────── -->
-  <section class="section" id="engine-life">
-    <div class="section-header">
-      <div class="section-label life">Engine 2 · Lifestyle &amp; Wellness Tech</div>
-      <h2>Gear that actually changed my daily routine.</h2>
-      <p class="section-desc">App-controlled gadgets, smart sleep tech, and recovery tools worth every dollar.</p>
-    </div>
+    <!-- ── Engine 2: Lifestyle & Wellness Tech ──────────────────────────── -->
+    <section class="engine-view" id="engine-life">
+      <div class="engine-header">
+        <span class="engine-kicker life">Engine 2 · Lifestyle &amp; Wellness Tech</span>
+        <h2>Smart Wellness, Sleep &amp; Biohack Tech</h2>
+        <p>App-controlled hardware, sleep tracking, and daily recovery gear worth the investment.</p>
+      </div>
 
-    <div class="grid" id="grid-life"></div>
+      <div class="grid" id="grid-life"></div>
 
-    <div class="or-divider">
-      Looking for productivity tools instead?
-      <br>
-      <button onclick="showEngine('ai')">← Show me Workflow &amp; AI Tools</button>
-    </div>
-  </section>
+      <div class="switch-cta-box">
+        <p>Looking for no-code automation and creator SaaS tools instead?</p>
+        <button class="switch-btn" onclick="switchEngine('ai')">
+          ← Explore Workflow &amp; AI Tools
+        </button>
+      </div>
+    </section>
+  </main>
 
-  <!-- ── Footer ─────────────────────────────────────────────────────────── -->
+  <!-- ── Footer & FTC Disclosure ────────────────────────────────────────── -->
   <footer>
-    <p>⚠️ <strong>Affiliate disclosure:</strong> Some links on this page are affiliate links. If you click and purchase, I may earn a commission at no extra cost to you. I only recommend products I genuinely use or believe in.</p>
+    <p><strong>Affiliate Disclosure:</strong> When you purchase through links on this site, I may earn an affiliate commission at zero additional cost to you. I only recommend tools and hardware that deliver measurable real-world results.</p>
+    <p style="margin-top: 10px; font-size: 0.75rem; color: #585f73;">Powered by Elena's Dual-Engine Affiliate Architecture on Cloudflare Pages.</p>
   </footer>
 
-  <!-- ── Script: Load links.json & render cards ─────────────────────────── -->
+  <!-- ── Dynamic Renderer ───────────────────────────────────────────────── -->
   <script>
-    // ── Engine toggle ──────────────────────────────────────────────────────
-    function showEngine(engine) {
-      const isAi = engine === 'ai';
+    function switchEngine(type) {
+      const isAi = type === 'ai';
       document.getElementById('engine-ai').classList.toggle('active', isAi);
       document.getElementById('engine-life').classList.toggle('active', !isAi);
 
-      const btnAi   = document.getElementById('btn-ai');
-      const btnLife = document.getElementById('btn-life');
+      const tabAi   = document.getElementById('tab-ai');
+      const tabLife = document.getElementById('tab-life');
 
-      btnAi.className   = 'toggle-btn' + (isAi  ? ' active-ai'   : '');
-      btnLife.className = 'toggle-btn' + (!isAi ? ' active-life' : '');
+      tabAi.className   = 'tab-btn' + (isAi  ? ' active-ai'   : '');
+      tabLife.className = 'tab-btn' + (!isAi ? ' active-life' : '');
     }
 
-    // ── Card renderer ──────────────────────────────────────────────────────
-    function renderCard(item, type) {
+    function createCard(item, engine) {
       const commissionLabel = item.commission === 'Recurring'
-        ? '🔁 Recurring commission'
-        : '💰 One-time commission';
+        ? '🔁 Recurring SaaS'
+        : '💰 Verified Gear';
 
       return `
-        <div class="card ${type}">
-          <div class="card-top">
-            <h3>${item.name}</h3>
-            <span class="badge ${type}">${item.badge}</span>
+        <article class="card ${engine}">
+          <div>
+            <div class="card-top">
+              <div class="card-icon">${item.icon || '✦'}</div>
+              <div class="card-title-group">
+                <h3>${item.name}</h3>
+                <span class="badge ${engine}">${item.badge}</span>
+              </div>
+            </div>
+            <p class="card-desc" style="margin-top: 14px;">${item.tagline}</p>
           </div>
-          <p>${item.tagline}</p>
-          <div class="card-footer">
-            <span class="commission-tag">${commissionLabel}</span>
-            <a class="cta-btn ${type}" href="${item.cloaked_url}" target="_blank" rel="noopener noreferrer">
-              Try it →
-            </a>
+
+          <div>
+            <div class="card-meta">
+              <span>Highlight:</span>
+              <span class="card-highlight">${item.highlight}</span>
+            </div>
+
+            <div class="card-action">
+              <span class="commission-type">${commissionLabel}</span>
+              <a class="btn-cta ${engine}" href="${item.cloaked_url}" target="_blank" rel="noopener noreferrer">
+                Visit Official Site →
+              </a>
+            </div>
           </div>
-        </div>`;
+        </article>
+      `;
     }
 
-    // ── Fetch & populate ───────────────────────────────────────────────────
     fetch('/links.json')
-      .then(r => r.json())
+      .then(res => res.json())
       .then(data => {
         document.getElementById('grid-ai').innerHTML =
-          data.workspace_ai.map(item => renderCard(item, 'ai')).join('');
+          data.workspace_ai.map(item => createCard(item, 'ai')).join('');
         document.getElementById('grid-life').innerHTML =
-          data.lifestyle_wellness.map(item => renderCard(item, 'life')).join('');
+          data.lifestyle_wellness.map(item => createCard(item, 'life')).join('');
       })
-      .catch(() => {
-        // Graceful fallback if JSON isn't served (e.g. file:// local preview)
-        document.getElementById('grid-ai').innerHTML =
-          '<p style="color:var(--muted);grid-column:1/-1">Links loading… open via a local server or Cloudflare Pages.</p>';
-        document.getElementById('grid-life').innerHTML =
-          '<p style="color:var(--muted);grid-column:1/-1">Links loading… open via a local server or Cloudflare Pages.</p>';
+      .catch(err => {
+        console.error('Failed to load links:', err);
       });
   </script>
-
 </body>
 </html>
