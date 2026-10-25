@@ -26,6 +26,7 @@
 | **2.2** | Embed Anchor Portrait into Live Header | ✅ Done | Live with approved v4 master |
 | **2.3** | Master Asset Pipeline & 10 Viral Scene Prompts | ✅ Done | Documented in [`ASSET_PIPELINE.md`](./ASSET_PIPELINE.md) |
 | **2.4** | Generate Content Scene Variations (Photos & Shots) | ✅ Done | **Full 4-Scene Suite Ready:** Café, Street, Somatics, AI Studio |
+| **2.5** | Render Production-Ready Viral MP4 Videos | ✅ Done | **3 MP4 Videos Rendered** in [`public/assets/videos/`](./public/assets/videos/) |
 
 ---
 
