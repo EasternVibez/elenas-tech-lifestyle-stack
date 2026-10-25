@@ -22,8 +22,8 @@
 ### 📍 PHASE 2: CHARACTER ASSET PIPELINE & ZERO-COST WORKFLOW
 | Task | Description | Status | Output / Action |
 | :--- | :--- | :--- | :--- |
-| **2.1** | Generate Master Character Reference Portraits | ✅ Done | 3 photos in [`public/assets/character/`](./public/assets/character/) |
-| **2.2** | Embed Anchor Portrait into Live Header | ✅ Done | Live with glowing status pill |
+| **2.1** | Generate Master Character Reference Portraits | ✅ Done | **v4 APPROVED & LOCKED** — `anchor_face.jpg` + `vespera_master_v4.jpg` |
+| **2.2** | Embed Anchor Portrait into Live Header | ✅ Done | Live with approved v4 master |
 | **2.3** | Master Asset Pipeline & 10 Viral Scene Prompts | ✅ Done | Documented in [`ASSET_PIPELINE.md`](./ASSET_PIPELINE.md) |
 
 ---
