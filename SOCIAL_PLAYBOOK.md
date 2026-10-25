@@ -7,7 +7,8 @@ This playbook establishes the exact organic traffic engine to drive high-intent 
 ## 📸 1. Cross-Platform Profile Optimization
 
 ### Instagram & TikTok Profile Setup
-* **Handle Ideas:** `@vespera.aura` | `@vesperaaura` | `@iamvesperaaura`
+* **Official Live Handle:** `@iamvesperaaura` (Locked & Active on IG and TikTok)
+* **X (Twitter):** Deferred — will launch once IG & TikTok flywheel is rolling.
 * **Display Name:** `Vespera Aura 🌿 Somatics & AI Tech`
 * **Profile Photo:** Use [`public/assets/character/anchor_face.jpg`](./public/assets/character/anchor_face.jpg)
 * **Website Field:** `https://vespera-aura.pages.dev`

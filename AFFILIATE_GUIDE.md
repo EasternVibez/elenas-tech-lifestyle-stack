@@ -1,4 +1,4 @@
-# 💎 Elena's Stack — Master Affiliate Registration Guide
+# 🔮 Vespera Aura — Master Affiliate Registration Guide
 
 This interactive guide gives you the exact, step-by-step instructions to register for our core revenue partners. Because these programs require your legal identity, tax/KYC information, and payout preferences, you must complete the signup forms yourself. Once approved, you simply paste your tracking links back to me and I wire them into the code automatically.
 
