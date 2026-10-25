@@ -2,9 +2,20 @@
   "meta": {
     "site": "Elena's Tech & Lifestyle Stack",
     "updated": "2026-10-24",
-    "note": "Production affiliate routing links. Dual-engine: AI Creator Tutorial Tools + Somatics & Healing Tech."
+    "note": "Production affiliate routing links. Update URLs here and in _redirects when inserting your custom network affiliate IDs."
   },
   "lifestyle_wellness": [
+    {
+      "id": "lovense",
+      "name": "Lovense Connected Intimacy Tech",
+      "icon": "💖",
+      "tagline": "Pioneering app-controlled, Bluetooth & long-distance intimacy hardware for remote connection, pelvic health, and somatic pleasure.",
+      "cloaked_url": "/go/lovense",
+      "affiliate_url": "https://www.lovense.com/affiliate?utm_source=elenas-stack&utm_medium=affiliate",
+      "badge": "Flagship Intimacy Tech",
+      "highlight": "App & Long-Distance Sync",
+      "commission": "Verified Partner (15%–20%)"
+    },
     {
       "id": "higherdose",
       "name": "HigherDOSE Infrared PEMF Mat",

@@ -1,34 +1,45 @@
-# 🚀 Elena's Tech & Lifestyle Stack — Build Progress
+# 🚀 Elena's Tech & Lifestyle Stack — Production Roadmap
 
-## Platform Overview
-**Dual-engine affiliate site** hosted on Cloudflare Pages (free `*.pages.dev` subdomain), sourced from a single GitHub repository.
-
-| Engine | Category | Focus |
-|--------|----------|-------|
-| 🌿 Engine 1 (Primary) | Somatics, Sexual Healing & Alignment Tech | High-ticket wellness: HigherDOSE, Sensate, Muse EEG, Dame, Foria, Somavedic |
-| ⚡ Engine 2 | AI Creator & Video Tutorial Stack | What Elena can tutorialize: HeyGen, ElevenLabs, Opus Clip, Submagic, ManyChat, Make |
+## Live Production Platform
+* **Production URL:** [https://elenas-tech-lifestyle-stack.pages.dev](https://elenas-tech-lifestyle-stack.pages.dev)
+* **GitHub Repository:** [EasternVibez/elenas-tech-lifestyle-stack](https://github.com/EasternVibez/elenas-tech-lifestyle-stack)
+* **Architecture:** Dual-Engine Cloudflare Pages + Git auto-deploy + Edge cloaked routing (`/go/*`)
 
 ---
 
-## Steps
+## Production Roadmap Tracker
 
-| # | Step | Status | Notes |
-|---|------|--------|-------|
-| 1 | Create project file structure | ✅ Done | All core files generated |
-| 2 | Push to GitHub repository | ✅ Done | Repo: EasternVibez/elenas-tech-lifestyle-stack |
-| 3 | Connect GitHub repo to Cloudflare Pages | ✅ Done | Auto-deploying from EasternVibez/elenas-tech-lifestyle-stack |
-| 4 | Configure `_redirects` & test cloaked links | ✅ Done | Cloaked routes active for Somatics + AI tutorial stack |
-| 5 | Curate non-generic products & tutorial AI tools | ✅ Done | Replaced generic items with high-ticket somatics & tutorial tools |
-| 6 | Connect Custom Affiliate Network IDs | ⏳ Ready | Add IDs to `_redirects` & `links.json` as accounts approve |
+### 📍 PHASE 1: AFFILIATE REGISTRATION & LIVE LINK WIRING
+| Task | Description | Status | Output / Action |
+| :--- | :--- | :--- | :--- |
+| **1.1** | Create Master Registration Guide | ✅ Done | [`AFFILIATE_GUIDE.md`](./AFFILIATE_GUIDE.md) created |
+| **1.2** | Configure Lovense & SaaS Cloaked Routes | ✅ Done | Added `/go/lovense` and updated `links.json` & `_redirects` |
+| **1.3** | Human Action: Register for Lovense Program | ⏳ **IN PROGRESS** | User registering at `lovense.com/affiliate` |
+| **1.4** | Human Action: Register for PartnerStack (ElevenLabs/ManyChat) | ⏳ Pending | User registering via PartnerStack |
+| **1.5** | Wire Live Affiliate IDs into `_redirects` & `links.json` | ⏳ Pending | Pending approved partner links |
 
 ---
 
-## Step 1 — Completed: 2026-10-24
-**What was built:**
-- `PROGRESS.md` — This file (progress tracker)
-- `site_strategy.md` — Dual-engine affiliate strategy document
-- `public/index.html` — Full single-page site with toggle UI, both engines, affiliate buttons
-- `public/links.json` — Central affiliate URL store (placeholder links ready to swap)
-- `public/_redirects` — Cloudflare Pages link cloaking rules
+### 📍 PHASE 2: AI INFLUENCER MEDIA ASSET PIPELINE
+| Task | Description | Status | Output / Action |
+| :--- | :--- | :--- | :--- |
+| **2.1** | Character Consistency Spec (`image_0.png` reference) | ⏳ Upcoming | `ASSET_PIPELINE.md` |
+| **2.2** | 10 High-Converting Scene Prompts | ⏳ Upcoming | Tech unboxing, somatics, desk aesthetic |
+| **2.3** | Cinematic B-Roll & Voiceover Scripts | ⏳ Upcoming | Viral Reels/TikTok hooks |
 
-**Next:** Step 2 — Push to GitHub. Give me the go-ahead when ready.
+---
+
+### 📍 PHASE 3: SOCIAL MEDIA & TELEGRAM FUNNEL SETUP
+| Task | Description | Status | Output / Action |
+| :--- | :--- | :--- | :--- |
+| **3.1** | Social Profile Optimization (IG & X bios) | ⏳ Upcoming | `SOCIAL_PLAYBOOK.md` |
+| **3.2** | 24/7 Telegram Bot & VIP Funnel Structure | ⏳ Upcoming | Traffic retention system |
+| **3.3** | Caption & CTA Frameworks (Spam-Proof) | ⏳ Upcoming | Auto-DM "STACK" trigger setup |
+
+---
+
+### 📍 PHASE 4: FINAL DEPLOYMENT & VERIFICATION
+| Task | Description | Status | Output / Action |
+| :--- | :--- | :--- | :--- |
+| **4.1** | Edge Redirection & Mobile QA Audit | ⏳ Upcoming | Full device & routing test |
+| **4.2** | Production Cloudflare Pages Sync | ⏳ Upcoming | Production freeze & handover |

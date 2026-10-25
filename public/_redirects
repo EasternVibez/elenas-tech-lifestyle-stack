@@ -2,21 +2,22 @@
 # Link cloaking — clean /go/ paths redirect to verified partner destinations.
 # Format: /go/SLUG  DESTINATION_URL  302
 
-# ── Engine 1: AI Creator & Tutorial Stack ──────────────────────────────────
-/go/heygen        https://www.heygen.com/?utm_source=elenas-stack&utm_medium=affiliate          302
-/go/elevenlabs    https://elevenlabs.io/?utm_source=elenas-stack&utm_medium=affiliate           302
-/go/opus          https://www.opus.pro/?utm_source=elenas-stack&utm_medium=affiliate            302
-/go/submagic      https://www.submagic.co/?utm_source=elenas-stack&utm_medium=affiliate        302
-/go/manychat      https://manychat.com/?utm_source=elenas-stack&utm_medium=affiliate           302
-/go/make          https://www.make.com/en?utm_source=elenas-stack&utm_medium=affiliate          302
-
-# ── Engine 2: Somatics, Sexual Healing & Alignment Tech ───────────────────
+# ── Engine 1: Somatics, Sexual Healing & Intimacy Tech ─────────────────────
+/go/lovense       https://www.lovense.com/affiliate?utm_source=elenas-stack&utm_medium=affiliate 302
 /go/higherdose    https://higherdose.com/?utm_source=elenas-stack&utm_medium=affiliate          302
 /go/sensate       https://www.getsensate.com/?utm_source=elenas-stack&utm_medium=affiliate      302
 /go/muse          https://choosemuse.com/?utm_source=elenas-stack&utm_medium=affiliate          302
 /go/dame          https://www.dameproducts.com/?utm_source=elenas-stack&utm_medium=affiliate    302
 /go/foria         https://www.foriawellness.com/?utm_source=elenas-stack&utm_medium=affiliate   302
 /go/somavedic     https://somavedic.com/?utm_source=elenas-stack&utm_medium=affiliate           302
+
+# ── Engine 2: AI Creator & Tutorial Stack ──────────────────────────────────
+/go/heygen        https://www.heygen.com/?utm_source=elenas-stack&utm_medium=affiliate          302
+/go/elevenlabs    https://elevenlabs.io/?utm_source=elenas-stack&utm_medium=affiliate           302
+/go/opus          https://www.opus.pro/?utm_source=elenas-stack&utm_medium=affiliate            302
+/go/submagic      https://www.submagic.co/?utm_source=elenas-stack&utm_medium=affiliate        302
+/go/manychat      https://manychat.com/?utm_source=elenas-stack&utm_medium=affiliate           302
+/go/make          https://www.make.com/en?utm_source=elenas-stack&utm_medium=affiliate          302
 
 # ── Fallback Catch-all: send unknown /go/* to homepage ──────────────────────
 /go/*             /                                                                              302
