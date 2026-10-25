@@ -10,36 +10,37 @@
 
 ## Production Roadmap Tracker
 
-### 📍 PHASE 1: BRAND IDENTITY & RECHARACTERIZATION
+### 📍 PHASE 1: BRAND IDENTITY & CLEAN DOMAIN
 | Task | Description | Status | Output / Action |
 | :--- | :--- | :--- | :--- |
 | **1.1** | Rebrand from Elena to **Vespera Aura** | ✅ Done | Site, links, and headers fully rebranded |
-| **1.2** | Master Asset Pipeline Spec & Prompts | ✅ Done | [`ASSET_PIPELINE.md`](./ASSET_PIPELINE.md) generated |
-| **1.3** | Generate Master Character Portrait References | 🔄 Generating | Subagent generating visual portraits |
+| **1.2** | Provision & Deploy Clean Domain | ✅ Done | Live at `https://vespera-aura.pages.dev` |
+| **1.3** | Cloaked Edge Routing Setup (`/go/*`) | ✅ Done | Cloudflare Pages `_redirects` verified |
 
 ---
 
 ### 📍 PHASE 2: CHARACTER ASSET PIPELINE & ZERO-COST WORKFLOW
 | Task | Description | Status | Output / Action |
 | :--- | :--- | :--- | :--- |
-| **2.1** | Review and lock Master Anchor Face (`anchor_face.png`) | ⏳ Next | User visual approval |
-| **2.2** | 100% Free Face-Consistency Setup (InstantID / PuLID) | ⏳ Upcoming | Documented in `ASSET_PIPELINE.md` |
-| **2.3** | LivePortrait + ElevenLabs Talking Avatar Testing | ⏳ Upcoming | Free video generation test |
+| **2.1** | Generate Master Character Reference Portraits | ✅ Done | 3 photos in [`public/assets/character/`](./public/assets/character/) |
+| **2.2** | Embed Anchor Portrait into Live Header | ✅ Done | Live with glowing status pill |
+| **2.3** | Master Asset Pipeline & 10 Viral Scene Prompts | ✅ Done | Documented in [`ASSET_PIPELINE.md`](./ASSET_PIPELINE.md) |
 
 ---
 
-### 📍 PHASE 3: AFFILIATE REGISTRATION & LIVE LINK WIRING
+### 📍 PHASE 3: SOCIAL MEDIA & TELEGRAM FUNNEL SETUP
 | Task | Description | Status | Output / Action |
 | :--- | :--- | :--- | :--- |
-| **3.1** | Master Registration Guide | ✅ Done | [`AFFILIATE_GUIDE.md`](./AFFILIATE_GUIDE.md) created |
-| **3.2** | Lovense & PartnerStack Application | ⏳ Post-Character | To be submitted once character is live |
-| **3.3** | Wire Live Approved IDs into `_redirects` & `links.json` | ⏳ Pending | Live link deployment |
+| **3.1** | Cross-Platform Profile Optimization (IG, TikTok, X) | ✅ Done | Detailed bios in [`SOCIAL_PLAYBOOK.md`](./SOCIAL_PLAYBOOK.md) |
+| **3.2** | Automated Comment-to-DM Trigger Flow (`AURA`) | ✅ Done | Pre-written high-converting scripts |
+| **3.3** | 7-Day High-Converting Content Launch Calendar | ✅ Done | Specific video hooks & product pairings |
+| **3.4** | 24/7 Telegram VIP Sanctuary Funnel Structure | ✅ Done | Setup guide for uncensored retention |
 
 ---
 
-### 📍 PHASE 4: SOCIAL MEDIA & TELEGRAM FUNNEL SETUP
+### 📍 PHASE 4: AFFILIATE REGISTRATION & LIVE REVENUE ACTIVATION
 | Task | Description | Status | Output / Action |
 | :--- | :--- | :--- | :--- |
-| **4.1** | Social Profile Optimization (IG & X bios) | ⏳ Upcoming | `SOCIAL_PLAYBOOK.md` |
-| **4.2** | 24/7 Telegram Bot & VIP Funnel Structure | ⏳ Upcoming | Traffic retention system |
-| **4.3** | Caption & CTA Frameworks (Spam-Proof) | ⏳ Upcoming | Auto-DM "AURA" trigger setup |
+| **4.1** | Step-by-Step Registration Guide | ✅ Done | [`AFFILIATE_GUIDE.md`](./AFFILIATE_GUIDE.md) updated with `vespera-aura.pages.dev` |
+| **4.2** | Submit Partner Applications (Lovense, PartnerStack) | ⏳ **ACTION NOW** | User registers using live Vespera Aura profile |
+| **4.3** | Wire Approved Partner IDs into Codebase | ⏳ Pending | Paste links here → Instant auto-deploy |
