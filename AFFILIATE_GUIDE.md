@@ -25,11 +25,11 @@ Lovense is the undisputed global leader in app-controlled intimacy hardware. The
 * **Account Type:** Select **Affiliate / Influencer / Content Creator**.
 * **Your Website / Promotion URL:** Enter your live production site:
   ```
-  https://elenas-tech-lifestyle-stack.pages.dev
+  https://vespera-aura.pages.dev
   ```
 * **Promotion Channels:** Check **Website / Blog**, **Social Media (Instagram / X / TikTok)**, and **Telegram / Community**.
 * **Traffic Description / Pitch (Copy & Paste this):**
-  > *"I run Elena's Tech & Lifestyle Stack (https://elenas-tech-lifestyle-stack.pages.dev), a high-curation platform featuring app-controlled wellness hardware, somatic alignment gear, and digital creator workflows. We produce high-production short-form video tutorials, lifestyle aesthetics, and community recommendations driving high-intent organic traffic to innovative connected devices."*
+  > *"I run Vespera Aura's Tech & Lifestyle Stack (https://vespera-aura.pages.dev), a high-curation platform featuring app-controlled wellness hardware, somatic alignment gear, and digital creator workflows. We produce high-production short-form video tutorials, lifestyle aesthetics, and community recommendations driving high-intent organic traffic to innovative connected devices."*
 * **Payment / Payout Method:** Select **PayPal, Paxum, or Wire Transfer** (you can update or finalize payout threshold later).
 
 ### 3. What to do once approved:
@@ -49,8 +49,8 @@ PartnerStack is the central hub for major creator and AI SaaS tools. Creating on
 * **ElevenLabs Partner Program:** [https://elevenlabs.io/affiliates](https://elevenlabs.io/affiliates) (Powers voice cloning tutorials)
 
 ### 2. Form Fields Walkthrough:
-* **Company / Brand Name:** `Elena Tech & Lifestyle`
-* **Website:** `https://elenas-tech-lifestyle-stack.pages.dev`
+* **Company / Brand Name:** `Vespera Aura`
+* **Website:** `https://vespera-aura.pages.dev`
 * **Target Audience:** Content Creators, AI Builders, Solopreneurs, and Lifestyle Enthusiasts.
 * **Monthly Audience Size:** Select `10k–50k` or `Under 10k` (both are widely accepted for niche curated stacks).
 

@@ -2,7 +2,7 @@
 
 ## Live Production Platform
 * **Brand Identity:** **Vespera Aura** *(Somatics, Connected Intimacy Tech & AI Creation)*
-* **Production URL:** [https://elenas-tech-lifestyle-stack.pages.dev](https://elenas-tech-lifestyle-stack.pages.dev)
+* **Production URL:** [https://vespera-aura.pages.dev](https://vespera-aura.pages.dev)
 * **GitHub Repository:** [EasternVibez/elenas-tech-lifestyle-stack](https://github.com/EasternVibez/elenas-tech-lifestyle-stack)
 * **Architecture:** Dual-Engine Cloudflare Pages + Git auto-deploy + Edge cloaked routing (`/go/*`)
 
