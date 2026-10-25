@@ -25,6 +25,7 @@
 | **2.1** | Generate Master Character Reference Portraits | ✅ Done | **v4 APPROVED & LOCKED** — `anchor_face.jpg` + `vespera_master_v4.jpg` |
 | **2.2** | Embed Anchor Portrait into Live Header | ✅ Done | Live with approved v4 master |
 | **2.3** | Master Asset Pipeline & 10 Viral Scene Prompts | ✅ Done | Documented in [`ASSET_PIPELINE.md`](./ASSET_PIPELINE.md) |
+| **2.4** | Generate Content Scene Variations (Photos & Shots) | 🔄 In Progress | Scene 1 (Café Candid) ✅ Approved & Saved |
 
 ---
 
