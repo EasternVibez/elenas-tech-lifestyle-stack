@@ -53,6 +53,34 @@
       margin: 0 auto;
     }
 
+    .creator-avatar-wrap {
+      position: relative;
+      width: 104px;
+      height: 104px;
+      margin: 0 auto 20px;
+    }
+
+    .creator-avatar {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2.5px solid #34d399;
+      box-shadow: 0 0 30px rgba(52, 211, 153, 0.4);
+    }
+
+    .online-indicator {
+      position: absolute;
+      bottom: 4px;
+      right: 6px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #10b981;
+      border: 2.5px solid var(--bg);
+      box-shadow: 0 0 10px #10b981;
+    }
+
     .badge-pill {
       display: inline-flex;
       align-items: center;
@@ -411,6 +439,10 @@
 
   <!-- ── Top Header ──────────────────────────────────────────────────────── -->
   <header>
+    <div class="creator-avatar-wrap">
+      <img src="/assets/character/anchor_face.jpg" alt="Vespera Aura" class="creator-avatar" />
+      <span class="online-indicator" title="Creator Online"></span>
+    </div>
     <div class="badge-pill">
       <span class="badge-dot"></span>
       <span>Vespera Aura · Curated Sanctuary &amp; Creation Stack</span>
